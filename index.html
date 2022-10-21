@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reindeer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="overlay">
+        <h1>Reindeer</h1>
+        <span>Snow Life</span>
+    </div>
+
+    <!-- Home Page -->
+    <div class="wrapper">
+
+        <!-- For close the video -->
+        <div class="background-all"></div>
+
+        <iframe src="https://www.youtube.com/embed/ITkPBnsPyXY" allowfullscreen></iframe>
+
+        <div class="nav">
+            <div class="logo">
+                <h1>
+                    <span>reIn <br> deer</span>
+                    <br>
+                    snow lIfe
+                </h1>
+            </div>
+
+            <div class="menu-links">
+                <ul>
+                    <li>Home</li>
+                    <li id="galleryHome">Snow LIfe</li>
+                    <li id="contactHome">Contact</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text">
+            <div class="title">Reindeer</div>
+            <p>Would you like to have a winter holiday intertwined with nature?</p>
+            <p>Events to see reindeer are also included in the price!</p>
+            <p>Please contact for detailed information.</p>
+        </div>
+
+        <div class="watchnow">
+            <i class="fa-solid fa-play"></i>
+            <a id="video">Watch Now</a>
+        </div>
+
+        <div class="media">
+            <ul>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+
+        <div class="ellipse-container">
+            <div class="ellipse thin"></div>
+            <div class="ellipse thick"></div>
+            <div class="ellipse yellow"></div>
+            <div class="circle1"><span>3 Nights 4 Days</span></div>
+            <div class="circle2"><span>Pearl of Alaska</span></div>
+        </div>
+    </div>
+
+    <!-- Gallery Page -->
+    <div class="container" id="container">
+        <div class="title">
+            <h2>Do you want to have a nice holiday with your family?</h2>
+            <h3>Here is the beauties you may see</h3>
+        </div>
+
+        <div class="nav">
+            <div class="logo">
+                <h1>
+                    <span>reIn <br> deer</span>
+                    <br>
+                    snow life
+                </h1>
+            </div>
+
+            <div class="menu-links">
+                <ul>
+                    <li id="homeGallery">Home</li>
+                    <li>Snow LIfe</li>
+                    <li id="contactGallery">Contact</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="scroll">
+            <h4>Scroll<i class="fa-solid fa-computer-mouse"></i></h4>
+        </div>
+
+        <!-- Background Text -->
+        <div class="bg-text">
+            <h1>REINDEER</h1>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>001</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>002</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>003</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>004</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>005</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>006</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide-number">
+                        <p><span>007</span></p>
+                    </div>
+                    <div class="slide-img"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div class="contact" id="contact">
+        <div class="nav">
+            <div class="logo">
+                <h1>
+                    <span>reIn <br> deer</span>
+                    <br>
+                    snow life
+                </h1>
+            </div>
+
+            <div class="menu-links">
+                <ul>
+                    <li id="homeContact">Home</li>
+                    <li id="galleryContact">Snow LIfe</li>
+                    <li id="">Contact</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="title">
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="down">
+            <div class="left-side">
+                <h3>Contact Form</h3>
+                <label for="username">Name: </label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="textarea">You can ask your question here: </label><br>
+                <textarea name="textarea" id="textarea"></textarea>
+                <br><button><i class="fa-sharp fa-solid fa-share"></i>Submit</button>
+            </div>
+
+            <div class="right-side">
+                <div class="right-title">
+                    <h2>You can also reach us on our social media accounts</h2>
+                </div>
+
+                <div class="icons">
+                    <h3><i class="fa-brands fa-facebook-f"></i>: Facebook / reindeerofficial</h3>
+                    <h3><i class="fa-brands fa-twitter"></i>: Twitter / reindeerofficial</h3>
+                    <h3><i class="fa-brands fa-instagram"></i>: Instagram / reindeerofficial</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
